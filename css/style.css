@@ -49,7 +49,7 @@ div.cat-list{
     width: 60%;
     border: 2px;
     margin: 0 auto;
-    height: 800px;
+    height: 1000px;
     display: block;
     background-color:antiquewhite;
     padding: 30px;
@@ -75,7 +75,7 @@ button.new-cat{
     height: 100px;
 }
   
-.btn{
+#btn{
     height: 80px;
     width: 80px;
     float: right;
@@ -83,7 +83,43 @@ button.new-cat{
     background-color: white;
     border: none;
     font-size: 80px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    cursor: pointer;
   }
+
+.gif-page{
+    width: 60%;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.gif-container{
+    height: 500px;
+    width: 50%;
+    padding: 30px;
+}
+
+.gif-content{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://cataas.com/cat/gif);
+    background-attachment: fixed;
+    background-size: 460px 60%;
+}
+
+.display{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+}
+
+.list-content{
+    margin-top: 160px;
+    background-color: blue;
+    height: 770px;
+}
 
 
 
