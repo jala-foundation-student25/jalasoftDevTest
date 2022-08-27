@@ -15,7 +15,7 @@ body{
 nav.menu{
     width: 100%;
     position: fixed;
-    background: rgb(0, 0, 0);
+    background-color: black;
     display: block;
     margin: 0 auto;
 }
@@ -93,7 +93,7 @@ button.new-cat{
     width: 60%;
     height: 1000px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 50px 50px 50px 50px;
 }
 
 .gif-container{
@@ -107,7 +107,8 @@ button.new-cat{
     height: 500px;
     background-image: url(https://cataas.com/cat/gif);
     background-attachment: fixed;
-    background-size: 460px 60%;
+    background-size: 460px 57%;
+    
 }
 
 .display{
@@ -119,6 +120,44 @@ button.new-cat{
     margin-top: 160px;
     background-color: blue;
     height: 770px;
+}
+
+.after-scroll{
+    border-style: solid;
+    border-color: black;
+    border-radius: 2px;
+    height: 500px;
+    width: 15%;
+    position: fixed;
+    bottom: 80px;
+    right: 0px;
+    text-align: center;
+    padding: 70px 30px 0 30px;
+    display: none;
+}
+
+.chat{
+    border-style: solid;
+    border-color: #1c1c1c;
+    -webkit-appearance: none;
+    height: 40px;
+    width: 190px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+}
+
+.question{
+    margin-bottom: 20px;
+}
+
+.question-gif{
+    width: 100%;
+    height: 100px;
+    background-image: url(/assets/funnycat.jpg);
+    background-attachment: fixed;
+    background-size: 20% 40%;
+    margin-bottom: 220px;
 }
 
 

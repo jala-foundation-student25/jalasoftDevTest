@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-
-
     <title>Your cat webpage!</title>
     <link rel="stylesheet" href="/css/style.css">
+
 </head>
 
 <body>
@@ -15,7 +14,6 @@
         <ul>
             <li> <a href="#home">Home</a></li>
             <li> <a href="#gif-page">GIF</a></li>
-            <li> <a href="#add-page">ADD your cat</a></li>
         </ul>
     </nav>
 
@@ -27,17 +25,23 @@
         </div>
     </div>
 
-    <div class="button-chat">
-        <button type="submit" class="btn" id="btn">
+    <div class="button-chat" id="button-chat">
+        <button type="submit" class="btn" id="btn" onclick="showDiv()">
             <ion-icon name="logo-wechat"></ion-icon>
         </button>
+    </div>
+
+    <div id="show-hide" class="after-scroll">
+        <div class="question"> May I meow you out?</div>
+        <div class="question-gif"></div>
+        <input type="text" class="chat" placeholder="Tell us your question :)">
     </div>
 
     <div id="gif-page" class="gif-page">
         <div class="gif-container">
             <div class="gif-content">
                 <div class="display">
-                    <h1>Name: </h1>
+                    <h1>ID: </h1>
                     <p>Added Date: </p>
                     <p>Tags: </p>
                 </div>
@@ -45,8 +49,8 @@
         </div>
     </div>
 
-
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="/js/app.js"></script>
 </body>
 
 </html>
